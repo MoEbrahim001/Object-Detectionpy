@@ -11,6 +11,7 @@ def load_coco_classes(file_path):
     return class_names
 
 
+
 # Path to your coco.txt file (update the path if needed)
 coco_classes = load_coco_classes('coco.txt')  # Replace with your coco.txt file path
 
