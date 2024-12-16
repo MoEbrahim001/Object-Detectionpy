@@ -2,7 +2,8 @@ import cv2
 from ultralytics import YOLO
 
 # Load the YOLOv8 model (best.pt is your trained model)
-model = YOLO('best.pt')  # Replace with the correct path to your 'best.pt' file
+model = YOLO('best.pt')
+# Replace with the correct path to your 'best.pt' file
 
 # Load the COCO class names from coco.txt file
 def load_coco_classes(file_path):
