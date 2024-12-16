@@ -10,6 +10,7 @@ def load_coco_classes(file_path):
         class_names = f.read().splitlines()  # Read each line as a class name
     return class_names
 
+
 # Path to your coco.txt file (update the path if needed)
 coco_classes = load_coco_classes('coco.txt')  # Replace with your coco.txt file path
 
