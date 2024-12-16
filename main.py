@@ -8,6 +8,7 @@ model = YOLO('best.pt')
 # Load the COCO class names from coco.txt file
 def load_coco_classes(file_path):
     with open(file_path, 'r') as f:
+
         class_names = f.read().splitlines()  # Read each line as a class name
     return class_names
 
